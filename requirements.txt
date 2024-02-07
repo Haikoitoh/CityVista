@@ -1,0 +1,7 @@
+streamlit
+streamlit_folium
+numerize
+Image
+plotly.express
+folium
+st-gsheets-connection

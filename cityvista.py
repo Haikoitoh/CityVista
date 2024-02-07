@@ -84,7 +84,7 @@ def main():
     if show_enjoying_tool:
         st.sidebar.markdown("""
         Support 🫶 \n
-        Let's connect on LinkedIn, X or share with a friend.
+        Let's connect on LinkedIn, X or share with a friend. \n
         Greatest support = Job referral
         """)
     

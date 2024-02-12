@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import folium
 from streamlit_folium import folium_static
+from streamlit_folium import st_folium
 import plotly.express as px
 import math
 from numerize import numerize
@@ -200,7 +201,8 @@ def main():
                     m.fit_bounds([sw, ne]) 
                 
                     # Display the map
-                    folium_static(m)
+                    #folium_static(m)
+                    st_folium(m,height = 500, use_container_width = True,returned_objects=[])
                 else:
                     st.write("No data available to display on the map.")
     

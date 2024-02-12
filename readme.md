@@ -2,7 +2,7 @@
 
 Welcome to City Vista, your one-stop destination for visualizing city data and planning your next move!
 
-- Web app: 
+- Web app: [CityVista](#https://cityvista.streamlit.app/)
 
 ## Features
 - **Scatter Plot:** Compare rent against transit score or walk score to find your ideal neighborhood.

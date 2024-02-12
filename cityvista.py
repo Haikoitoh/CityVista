@@ -23,7 +23,7 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 @st.cache_data
 def load_data():
     df = conn.read(usecols=list(range(1, 16)),
-        nrows=193,)
+        nrows=195,)
     data = df
     data['CityState'] =  data['CITY'].map(str) + ', ' + data['STATE'].map(str) 
     return data

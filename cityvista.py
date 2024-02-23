@@ -88,6 +88,12 @@ def main():
         Let's connect on LinkedIn, X or share with a friend. \n
         Greatest support = Job referral
         """)
+        
+    st.sidebar.info(
+        """
+        [Pipeline Overview](https://www.linkedin.com/posts/sumeetbadgujar_dataengineer-dataengineering-datapipeline-activity-7161093083995021312-gQK0?utm_source=share&utm_medium=member_desktop) | [dbt Lineage](https://www.linkedin.com/posts/sumeetbadgujar_dbt-dataanalytics-dataengineering-activity-7162855415918055426-zzve?utm_source=share&utm_medium=member_desktop)
+        """
+    )
     
     st.sidebar.title("Contact")
     st.sidebar.info(

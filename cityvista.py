@@ -91,7 +91,7 @@ def main():
         
     st.sidebar.markdown(
         """
-        [Pipeline Overview](https://github.com/Haikoitoh/CityVista/blob/main/ETL%20Pipeline.jpeg) | [dbt Lineage](https://www.linkedin.com/posts/sumeetbadgujar_dbt-dataanalytics-dataengineering-activity-7162855415918055426-zzve?utm_source=share&utm_medium=member_desktop)
+        [Pipeline Overview](https://github.com/Haikoitoh/CityVista/blob/main/ETL%20Pipeline.jpeg) | [dbt Lineage](https://github.com/Haikoitoh/CityVista/blob/main/dbt%20Lineage.jpeg)
         """
     )
     

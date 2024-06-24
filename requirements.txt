@@ -1,7 +1,7 @@
-streamlit
-streamlit_folium
+streamlit==1.35.0
+streamlit_folium==0.20.0
 numerize
 Image
 plotly.express
-folium
+folium==0.16.0
 st-gsheets-connection

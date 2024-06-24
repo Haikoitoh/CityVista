@@ -20,7 +20,7 @@ def roundup(x):
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # Load the CSV data
-@st.cache_data
+@st.cache_data(ttl=43200)
 def load_data():
     df = conn.read(usecols=list(range(1, 16)),
         nrows=195,)

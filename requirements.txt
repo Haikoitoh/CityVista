@@ -4,4 +4,4 @@ numerize
 Image
 plotly.express
 folium==0.16.0
-st-gsheets-connection
+st-gsheets-connection==0.0.4
